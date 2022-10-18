@@ -38,6 +38,6 @@ const button = document.getElementById('botao');
 const botaoreset = document.getElementById('reset');
 
 button.addEventListener('click', () => texto.innerHTML = contador +=1);
-botaoreset.addEventListener('click', () => texto.innerHTML = 0);
+botaoreset.addEventListener('click', () => texto.innerHTML = contador = 0);
 
 
